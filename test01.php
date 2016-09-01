@@ -1,10 +1,3 @@
-<html>
- <head>
-  <title>PHP Test</title>
- </head>
- <body>
- <?php echo '<p>Hello World</p>'; ?> 
- 
 <?php
 if (strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE') !== false) {
 ?>
@@ -18,6 +11,3 @@ if (strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE') !== false) {
 <?php
 }
 ?> 
-
-</body>
-</html> 
